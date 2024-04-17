@@ -17,7 +17,7 @@ def lepalavras(texto):
     return lista_palavras
 
 def palavras(lista_palavras, n):
-    #retorna uma lista com as 5 maiores palavras da lista recebida
+    #retorna uma lista com as n maiores palavras da lista recebida
     lista_n_palavras = []
     for i in range(n):
         maior = 0
